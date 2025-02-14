@@ -1,0 +1,8 @@
+std_msgs/Header header
+string satellite_id
+float32 carrier_phase
+float32 pseudorange
+float32 doppler
+float32 snr
+uint8 lock_time_indicator
+bool half_cycle_valid

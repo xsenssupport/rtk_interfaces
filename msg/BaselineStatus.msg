@@ -1,0 +1,9 @@
+std_msgs/Header header
+float64 distance_3d
+float64 distance_2d
+float64 height_difference
+sensor_msgs/NavSatFix base_position
+sensor_msgs/NavSatFix rover_position
+uint8 satellite_count
+float32 average_snr
+string rtk_status
