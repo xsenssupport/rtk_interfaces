@@ -16,6 +16,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/BaselineStatus.msg"
   "msg/GNSSStatus.msg"
   "msg/Satellite.msg"
+  "msg/RTKAnalysis.msg"
   DEPENDENCIES
     std_msgs
     sensor_msgs
